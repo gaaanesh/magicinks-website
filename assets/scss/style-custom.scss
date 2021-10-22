@@ -1,0 +1,150 @@
+.header .logo img {
+    max-height: 49px;
+}
+.about h2.h1 {
+    font-size: 2.5rem;
+} 
+.text-primary {
+    color: #4154f1 !important;
+}  
+.btn-primary, .btn-primary:focus {
+    background: #4154f1;
+    // padding: 8px 20px;
+    // margin-left: 30px;
+    // border-radius: 4px;
+    color: #fff;
+  }
+  .btn-primary:hover{
+    color: #fff;
+    background: #5969f3;
+  }
+
+
+.services .service-box {
+    img {
+        width: 150px;
+        margin-bottom: 2rem;
+    }
+    &.primary-blue{
+        border-bottom: 3px solid #4154f1;
+        img {
+            fill: #4154f1;
+            filter: invert(27%) sepia(58%) saturate(2810%) hue-rotate(225deg) brightness(97%) contrast(96%);
+        }
+        &:hover {
+            img {
+            fill: #fff;
+            filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(335deg) brightness(102%) contrast(102%);
+            }
+        }
+        &:hover {
+            background: #4154f1;
+        }
+    }
+
+
+    &.blue{
+        img {
+            fill: #2db6fa;
+            filter: invert(76%) sepia(38%) saturate(7163%) hue-rotate(172deg) brightness(103%) contrast(96%);
+        }
+        &:hover {
+            img {
+            fill: #fff;
+            filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(335deg) brightness(102%) contrast(102%);
+            }
+        }
+    }
+    &.orange{
+        img {
+            fill: #f68c09;
+            filter: invert(52%) sepia(99%) saturate(1763%) hue-rotate(2deg) brightness(106%) contrast(93%);
+        }
+        &:hover {
+            img {
+            fill: #fff;
+            filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(335deg) brightness(102%) contrast(102%);
+            }
+        }
+    }
+    &.green{
+        img {
+            fill: #08da4e;
+            filter: invert(55%) sepia(85%) saturate(567%) hue-rotate(90deg) brightness(99%) contrast(95%);
+        }
+        &:hover {
+            img {
+            fill: #fff;
+            filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(335deg) brightness(102%) contrast(102%);
+            }
+        }
+    }
+    &.purple{
+        img {
+            fill: #b50edf;
+            filter: invert(16%) sepia(80%) saturate(7171%) hue-rotate(286deg) brightness(97%) contrast(102%);
+        }
+        &:hover {
+            img {
+            fill: #fff;
+            filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(335deg) brightness(102%) contrast(102%);
+            }
+        }
+    }
+}
+.btn-read-more {
+    line-height: 0;
+    padding: 15px 40px;
+    border-radius: 4px;
+    transition: 0.5s;
+    color: #fff;
+    background: #4154f1;
+    box-shadow: 0px 5px 25px rgba(65, 84, 241, 0.3);
+  }
+.btn-read-more span {
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 1px;
+  }
+.btn-read-more i {
+    margin-left: 5px;
+    font-size: 18px;
+    transition: 0.3s;
+  }
+.btn-read-more:hover i {
+    transform: translateX(5px);
+  }
+  .btn-read-more:hover span {
+      color: #fff;
+  }
+
+span.change-banner-text::before {
+    content: "Employees";
+    animation: animate infinite 10s;
+    // padding-left: 10px;
+}
+
+@keyframes animate {
+
+    0%,100% {
+        content: "Students";
+    }
+
+    25% {
+        content: "Employees";
+    }
+
+    50% {
+        content: "Clients";
+    }
+
+    75% {
+        content: "Customers";
+    }
+
+    // 75% {
+    //     content: "Students";
+    // }
+}
+// Employees, Clients, Customers, Dealers, Students
