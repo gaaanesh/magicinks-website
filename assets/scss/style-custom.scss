@@ -1,3 +1,24 @@
+$primary: #4154f1;
+$theme-colors: (
+  "primary":    $primary,
+  
+//   "secondary":  $secondary,
+//   "success":    $success,
+//   "info":       $info,
+//   "warning":    $warning,
+//   "danger":     $danger,
+//   "light":      $light,
+//   "dark":       $dark
+);
+:root {
+    --bs-blue: #4154f1;
+    --bs-primary: #4154f1;
+    --bs-primary-rgb: #4154f1;
+    --bs-bg-opacity: #4154f1;
+}
+.bg-primary {
+    background-color: #4154f1;
+}
 .header .logo img {
     max-height: 49px;
 }
@@ -197,3 +218,86 @@ span.change-banner-text::before {
         }
     }
 } 
+
+
+
+
+h1, h2, h3, h4, h5 {
+    color: #012970;
+    font-family: "Nunito", sans-serif;
+}
+.swiper-button-next, .swiper-button-prev {
+    color: #4154f1;
+}
+.swiper-pagination-bullet {
+    width: .8rem;
+    height: .8rem;
+}
+
+.swiper-pagination-bullet-active {
+    background:#4154f1;
+}
+
+
+// Tabs
+.nav-giftlist-tab .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: #4154f1; 
+    color: #fff;
+}
+ .nav-giftlist-tab .nav-link {
+    color: #4154f1;
+}
+.nav-giftlist-tab .nav-pills .nav-link {
+    text-align:  left;
+    color: #012970;
+}
+
+
+
+.form-primary {
+    background-color: #4154f1;
+    border-radius: 8px;
+    position: sticky;
+}
+.item-boxwrap {
+    margin-bottom: 24px;
+    .card {
+        height: 100%;
+    }
+    .item-wrap {
+        height: 250px;
+        align-items: center;
+        display: flex;
+    }
+}
+// .swiper {
+//     width: 100%;
+//     height: 100%;
+//   }
+
+//   .swiper-slide {
+//     text-align: center;
+//     font-size: 18px;
+//     background: #fff;
+
+//     /* Center slide text vertically */
+//     display: -webkit-box;
+//     display: -ms-flexbox;
+//     display: -webkit-flex;
+//     display: flex;
+//     -webkit-box-pack: center;
+//     -ms-flex-pack: center;
+//     -webkit-justify-content: center;
+//     justify-content: center;
+//     -webkit-box-align: center;
+//     -ms-flex-align: center;
+//     -webkit-align-items: center;
+//     align-items: center;
+//   }
+
+//   .swiper-slide img {
+//     display: block;
+//     width: 100%;
+//     height: 100%;
+//     object-fit: cover;
+//   }
