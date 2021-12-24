@@ -269,6 +269,13 @@ h1, h2, h3, h4, h5 {
         align-items: center;
         display: flex;
     }
+    .card-body{
+    display: flex;
+    align-items: end;
+    .item-code {
+        color: #4154f1ba;
+    }
+    }
 }
 
 

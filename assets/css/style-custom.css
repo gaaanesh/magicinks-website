@@ -248,6 +248,15 @@ h1, h2, h3, h4, h5 {
   display: flex;
 }
 
+.item-boxwrap .card-body {
+  display: flex;
+  align-items: end;
+}
+
+.item-boxwrap .card-body .item-code {
+  color: #4154f1ba;
+}
+
 .event-details {
   position: relative;
 }

@@ -101,6 +101,61 @@
       <div class="container">
         <div class="row">
             <div class="col-md-9">
+              <!-- Button trigger modal -->
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <form id="contact-form" class="form-horizontal php-email-form" action="https://formspree.io/f/xrgrdkgr"
+                        method="POST" onSubmit="alert('Thank you for your feedback!');">
+                        
+                                  <!-- <form action="forms/contact.php" method="post" class="php-email-form"> -->
+                                    <div class="row gy-4">
+                      
+                                      <div class="col-md-12">
+                                        <input type="text" name="Name" id="Name" class="form-control" placeholder="Name" required="">
+                                      </div>
+                      
+                                      <div class="col-md-12 ">
+                                        <input type="email" name="_replyto" id="Email"  class="form-control" placeholder="Email" required="">
+                                      </div>
+                      
+                                      <div class="col-md-12">
+                                        <input type="text" name="companyName" id="companyName"  class="form-control"  placeholder="Company Name" required="">
+                                      </div>
+                    
+                                      <div class="col-md-12">
+                                        <input type="number" name="companyNumber" id="companyNumber" class="form-control" placeholder="Phone Number" required="">
+                                      </div>
+                      
+                                      <div class="col-md-12">
+                                        <textarea class="form-control" name="message"  id="Message" rows="6" placeholder="Message" required=""></textarea>
+                                      </div>
+                      
+                                      <div class="col-md-12 text-center">
+                                        <!-- <div class="loading">Loading</div>
+                                        <div class="error-message"></div>
+                                        <div class="sent-message">Your message has been sent. Thank you!</div> -->
+                                        <!-- <input type="submit" name="submit" value="Submit" class="btn btn-primary wow fadeInUp" /> -->
+                                        <button type="submit" name="submit" value="Submit" class="btn btn-primary" >Submit</button>
+                                      </div>
+                      
+                                    </div>
+                                  </form>
+                      </div>
+                      <!-- <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                      </div> -->
+                    </div>
+                  </div>
+                </div>
+
                     <div class="row align-items-start nav-giftlist-tab">
                         <div class="col-md-3" data-aos="fade" >
                             <div class="bg-light pt-3 py-2 px-2">
@@ -149,107 +204,820 @@
                                     <div class="row">
                                         <div class="col-md-4 col-6 item-boxwrap">
                                             <div class="card">
-                                               <div class="item-wrap"> <img class="card-img-top" src="assets/img/water-bottle-01.png" alt="Card image cap"></div>
+                                               <div class="item-wrap"> <img class="card-img-top" src="assets/img/Products/water-bottle/hot-cold-flask-H-104-(500ML).jpg" alt="hot-cold-flask-H-104-(500ML)"></div>
                                                 <div class="card-body">
                                                     <div>
                                                        <p class="mb-0"><strong>Hot & Cold Flas</strong></p>
+                                                       <small class="small d-block text-muted">Item code: <span class="item-code">H-104</span></small> 
                                                        <small class="small d-block">Capacity: 500ml</small>
-                                                       <small class="small d-block">Material: Plastic</small>
-                                                       <a href="#" class="small  btn btn-outline-primary btn-sm mt-2">Enquire Now</a>
+                                                       <!-- <small class="small d-block">Material: Plastic</small> -->
+                                                       <a href="#" class="small  btn btn-outline-primary btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Enquire Now</a>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-md-4 col-6 item-boxwrap">
                                             <div class="card">
-                                               <div class="item-wrap"> <img class="card-img-top" src="assets/img/water-bottle-02.png" alt="Card image cap"></div>
+                                               <div class="item-wrap"> <img class="card-img-top" src="assets/img/Products/water-bottle/hot-cold-flask-0002A-(450ML).jpg" alt="hot-cold-flask-0002A-(450ML)"></div>
                                                 <div class="card-body">
                                                     <div>
-                                                       <p class="mb-0"><strong>Hot & Cold Flas</strong></p>
-                                                       <small class="small d-block">Capacity: 500ml</small>
-                                                       <small class="small d-block">Material: Plastic</small>
-                                                       <a href="#" class="small  btn btn-outline-primary btn-sm mt-2">Enquire Now</a>
+                                                      <p class="mb-0"><strong>Hot & Cold Flas</strong></p>
+                                                      <small class="small d-block text-muted">Item code: <span class="item-code">0002A</span></small> 
+                                                      <small class="small d-block">Capacity: 450ml</small>
+                                                       <a href="#" class="small  btn btn-outline-primary btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Enquire Now</a>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-md-4 col-6 item-boxwrap">
                                             <div class="card">
-                                               <div class="item-wrap"> <img class="card-img-top" src="assets/img/water-bottle-03.png" alt="Card image cap"></div>
+                                               <div class="item-wrap"> <img class="card-img-top" src="assets/img/Products/water-bottle/hot-cold-flask-H-047-(500ML).jpg" alt="hot-cold-flask-H-047-(500ML)"></div>
                                                 <div class="card-body">
                                                     <div>
-                                                       <p class="mb-0"><strong>Hot & Cold Flas</strong></p>
-                                                       <small class="small d-block">Capacity: 500ml</small>
-                                                       <small class="small d-block">Material: Plastic</small>
-                                                       <a href="#" class="small  btn btn-outline-primary btn-sm mt-2">Enquire Now</a>
+                                                      <p class="mb-0"><strong>Hot & Cold Flas</strong></p>
+                                                      <small class="small d-block text-muted">Item code: <span class="item-code">H-047</span></small> 
+                                                      <small class="small d-block">Capacity: 500ml</small>
+                                                       <a href="#" class="small  btn btn-outline-primary btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Enquire Now</a>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-md-4 col-6 item-boxwrap">
                                             <div class="card">
-                                               <div class="item-wrap"> <img class="card-img-top" src="assets/img/water-bottle-04.png" alt="Card image cap"></div>
+                                               <div class="item-wrap"> <img class="card-img-top" src="assets/img/Products/water-bottle/hot-cold-flask-H-049-(850ML).jpg" alt="hot-cold-flask-H-049-(850ML)"></div>
                                                 <div class="card-body">
                                                     <div>
-                                                       <p class="mb-0"><strong>Hot & Cold Flas</strong></p>
-                                                       <small class="small d-block">Capacity: 500ml</small>
-                                                       <small class="small d-block">Material: Plastic</small>
-                                                       <a href="#" class="small  btn btn-outline-primary btn-sm mt-2">Enquire Now</a>
+                                                      <p class="mb-0"><strong>Hot & Cold Flas</strong></p>
+                                                      <small class="small d-block text-muted">Item code: <span class="item-code">H-049</span></small> 
+                                                      <small class="small d-block">Capacity: 850ml</small>
+                                                       <a href="#" class="small  btn btn-outline-primary btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Enquire Now</a>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-md-4 col-6 item-boxwrap">
                                             <div class="card">
-                                               <div class="item-wrap"> <img class="card-img-top" src="assets/img/water-bottle-05.png" alt="Card image cap"></div>
+                                               <div class="item-wrap"> <img class="card-img-top" src="assets/img/Products/water-bottle/hot-cold-flask-H-060-(1000ML).jpg" alt="hot-cold-flask-H-060-(1000ML)"></div>
                                                 <div class="card-body">
                                                     <div>
-                                                       <p class="mb-0"><strong>Hot & Cold Flas</strong></p>
-                                                       <small class="small d-block">Capacity: 500ml</small>
-                                                       <small class="small d-block">Material: Plastic</small>
+                                                      <p class="mb-0"><strong>Hot & Cold Flas</strong></p>
+                                                      <small class="small d-block text-muted">Item code: <span class="item-code">H-060</span></small> 
+                                                      <small class="small d-block">Capacity: 1000ml</small>
+                                                       <a href="#" class="small  btn btn-outline-primary btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Enquire Now</a>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-md-4 col-6 item-boxwrap">
                                             <div class="card">
-                                               <div class="item-wrap"> <img class="card-img-top" src="assets/img/water-bottle-06.png" alt="Card image cap"></div>
+                                               <div class="item-wrap"> <img class="card-img-top" src="assets/img/Products/water-bottle/hot-cold-flask-H-061-(550ML).jpg" alt="hot-cold-flask-H-061-(550ML)"></div>
                                                 <div class="card-body">
                                                     <div>
-                                                       <p class="mb-0"><strong>Hot & Cold Flas</strong></p>
-                                                       <small class="small d-block">Capacity: 500ml</small>
-                                                       <small class="small d-block">Material: Plastic</small>
+                                                      <p class="mb-0"><strong>Hot & Cold Flas</strong></p>
+                                                      <small class="small d-block text-muted">Item code: <span class="item-code">H-061</span></small> 
+                                                      <small class="small d-block">Capacity: 550ml</small>
+                                                       <a href="#" class="small  btn btn-outline-primary btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Enquire Now</a>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-md-4 col-6 item-boxwrap">
                                             <div class="card">
-                                               <div class="item-wrap"> <img class="card-img-top" src="assets/img/water-bottle-01.png" alt="Card image cap"></div>
+                                               <div class="item-wrap"> <img class="card-img-top" src="assets/img/Products/water-bottle/hot-cold-flask-H-062-(550ML).jpg" alt="hot-cold-flask-H-062-(550ML)"></div>
                                                 <div class="card-body">
                                                     <div>
-                                                       <p class="mb-0"><strong>Hot & Cold Flas</strong></p>
-                                                       <small class="small d-block">Capacity: 500ml</small>
-                                                       <small class="small d-block">Material: Plastic</small>
+                                                      <p class="mb-0"><strong>Hot & Cold Flas</strong></p>
+                                                      <small class="small d-block text-muted">Item code: <span class="item-code">H-062</span></small> 
+                                                      <small class="small d-block">Capacity: 550ml</small>
+                                                       <a href="#" class="small  btn btn-outline-primary btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Enquire Now</a>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-md-4 col-6 item-boxwrap">
                                             <div class="card">
-                                               <div class="item-wrap"> <img class="card-img-top" src="assets/img/water-bottle-02.png" alt="Card image cap"></div>
+                                               <div class="item-wrap"> <img class="card-img-top" src="assets/img/Products/water-bottle/hot-cold-flask-H-063(500+750+1000+1200ML).jpg" alt="hot-cold-flask-H-063(500+750+1000+1200ML)"></div>
                                                 <div class="card-body">
                                                     <div>
-                                                       <p class="mb-0"><strong>Hot & Cold Flas</strong></p>
-                                                       <small class="small d-block">Capacity: 500ml</small>
-                                                       <small class="small d-block">Material: Plastic</small>
+                                                      <p class="mb-0"><strong>Hot & Cold Flas</strong></p>
+                                                      <small class="small d-block text-muted">Item code: <span class="item-code">H-063</span></small> 
+                                                      <small class="small d-block">Capacity: 500ml / 750ml / 1000ml / 1200ml</small>
+                                                       <a href="#" class="small  btn btn-outline-primary btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Enquire Now</a>
                                                     </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-6 item-boxwrap">
+                                          <div class="card">
+                                             <div class="item-wrap"> <img class="card-img-top" src="assets/img/Products/water-bottle/hot-cold-flask-H-106-(500ML).jpg" alt="hot-cold-flask-H-106-(500ML)"></div>
+                                              <div class="card-body">
+                                                  <div>
+                                                    <p class="mb-0"><strong>Hot & Cold Flas</strong></p>
+                                                    <small class="small d-block text-muted">Item code: <span class="item-code">H-106</span></small> 
+                                                    <small class="small d-block">Capacity: 500ml</small>
+                                                     <a href="#" class="small  btn btn-outline-primary btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Enquire Now</a>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </div>
+                                      <div class="col-md-4 col-6 item-boxwrap">
+                                        <div class="card">
+                                           <div class="item-wrap"> <img class="card-img-top" src="assets/img/Products/water-bottle/plastic-water-bottle/plastic-water-bottle-H-043 (750ML).jpg" alt="plastic-water-bottle-H-043 (750ML)"></div>
+                                            <div class="card-body">
+                                                <div>
+                                                  <p class="mb-0"><strong>Plastic Bottle</strong></p>
+                                                  <small class="small d-block text-muted">Item code: <span class="item-code">H-043</span></small> 
+                                                  <small class="small d-block">Capacity: 750ml</small>
+                                                   <a href="#" class="small  btn btn-outline-primary btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Enquire Now</a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
+                                    
+                                    <div class="col-md-4 col-6 item-boxwrap">
+                                      <div class="card">
+                                         <div class="item-wrap"> <img class="card-img-top" src="assets/img/Products/water-bottle/plastic-water-bottle/plastic-water-bottle-H-045 (600ML).jpg" alt="plastic-water-bottle-H-045 (600ML)"></div>
+                                          <div class="card-body">
+                                              <div>
+                                                <p class="mb-0"><strong>Plastic Bottle</strong></p>
+                                                <small class="small d-block text-muted">Item code: <span class="item-code">H-045</span></small> 
+                                                <small class="small d-block">Capacity: 600ml</small>
+                                                 <a href="#" class="small  btn btn-outline-primary btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Enquire Now</a>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="col-md-4 col-6 item-boxwrap">
+                                    <div class="card">
+                                       <div class="item-wrap"> <img class="card-img-top" src="assets/img/Products/water-bottle/plastic-water-bottle/plastic-water-bottle-H-301 (390ML).jpg" alt="plastic-water-bottle-H-301 (390ML)"></div>
+                                        <div class="card-body">
+                                            <div>
+                                              <p class="mb-0"><strong>Plastic Bottle</strong></p>
+                                              <small class="small d-block text-muted">Item code: <span class="item-code">H-301</span></small> 
+                                              <small class="small d-block">Capacity: 390ml</small>
+                                               <a href="#" class="small  btn btn-outline-primary btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Enquire Now</a>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="tab-pane fade" id="Coffee" role="tabpanel" aria-labelledby="Coffee-tab">Coffee</div>
+                                <div class="col-md-4 col-6 item-boxwrap">
+                                  <div class="card">
+                                     <div class="item-wrap"> <img class="card-img-top" src="assets/img/Products/water-bottle/plastic-water-bottle/plastic-water-bottle-H-302 (600ML).jpg" alt="plastic-water-bottle-H-302 (600ML)"></div>
+                                      <div class="card-body">
+                                          <div>
+                                            <p class="mb-0"><strong>Plastic Bottle</strong></p>
+                                            <small class="small d-block text-muted">Item code: <span class="item-code">H-302</span></small> 
+                                            <small class="small d-block">Capacity: 600ml</small>
+                                             <a href="#" class="small  btn btn-outline-primary btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Enquire Now</a>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-md-4 col-6 item-boxwrap">
+                                <div class="card">
+                                   <div class="item-wrap"> <img class="card-img-top" src="assets/img/Products/water-bottle/plastic-water-bottle/plastic-water-bottle-H-303 (395ML).jpg" alt="plastic-water-bottle-H-303 (395ML)"></div>
+                                    <div class="card-body">
+                                        <div>
+                                          <p class="mb-0"><strong>Plastic Bottle</strong></p>
+                                          <small class="small d-block text-muted">Item code: <span class="item-code">H-303</span></small> 
+                                          <small class="small d-block">Capacity: 395ml</small>
+                                           <a href="#" class="small  btn btn-outline-primary btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Enquire Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-4 col-6 item-boxwrap">
+                              <div class="card">
+                                 <div class="item-wrap"> <img class="card-img-top" src="assets/img/Products/water-bottle/plastic-water-bottle/plastic-water-bottle-H-303 (395ML).jpg" alt="plastic-water-bottle-H-303 (395ML)"></div>
+                                  <div class="card-body">
+                                      <div>
+                                        <p class="mb-0"><strong>Plastic Bottle</strong></p>
+                                        <small class="small d-block text-muted">Item code: <span class="item-code">H-303</span></small> 
+                                        <small class="small d-block">Capacity: 395ml</small>
+                                         <a href="#" class="small  btn btn-outline-primary btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Enquire Now</a>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+
+                          <div class="col-md-4 col-6 item-boxwrap">
+                            <div class="card">
+                               <div class="item-wrap"> <img class="card-img-top" src="assets/img/Products/water-bottle/steel-water-bottle/steel-water-bottle-H-055 (800ML).jpg" alt="steel-water-bottle-H-055 (800ML)"></div>
+                                <div class="card-body">
+                                    <div>
+                                      <p class="mb-0"><strong>Steel Bottle</strong></p>
+                                      <small class="small d-block text-muted">Item code: <span class="item-code">H-055</span></small> 
+                                      <small class="small d-block">Capacity: 800ML</small>
+                                       <a href="#" class="small  btn btn-outline-primary btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Enquire Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+<div class="col-md-4 col-6 item-boxwrap">
+                            <div class="card">
+                               <div class="item-wrap"> <img class="card-img-top" src="assets/img/Products/water-bottle/steel-water-bottle/steel-water-bottle-H-131 (900ML).jpg" alt="steel-water-bottle-H-131 (900ML)"></div>
+                                <div class="card-body">
+                                    <div>
+                                      <p class="mb-0"><strong>Steel Bottle</strong></p>
+                                      <small class="small d-block text-muted">Item code: <span class="item-code">H-131</span></small> 
+                                      <small class="small d-block">Capacity: 900ML</small>
+                                       <a href="#" class="small  btn btn-outline-primary btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Enquire Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+<div class="col-md-4 col-6 item-boxwrap">
+                            <div class="card">
+                               <div class="item-wrap"> <img class="card-img-top" src="assets/img/Products/water-bottle/steel-water-bottle/steel-water-bottle-H-141 (750ML).jpg" alt="steel-water-bottle-H-141 (750ML)"></div>
+                                <div class="card-body">
+                                    <div>
+                                      <p class="mb-0"><strong>Steel Bottle</strong></p>
+                                      <small class="small d-block text-muted">Item code: <span class="item-code">H-141</span></small> 
+                                      <small class="small d-block">Capacity: 750ML</small>
+                                       <a href="#" class="small  btn btn-outline-primary btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Enquire Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+<div class="col-md-4 col-6 item-boxwrap">
+                            <div class="card">
+                               <div class="item-wrap"> <img class="card-img-top" src="assets/img/Products/water-bottle/steel-water-bottle/steel-water-bottle-H-065 (400ML).jpg" alt="steel-water-bottle-H-065 (400ML)"></div>
+                                <div class="card-body">
+                                    <div>
+                                      <p class="mb-0"><strong>Steel Bottle</strong></p>
+                                      <small class="small d-block text-muted">Item code: <span class="item-code">H-065</span></small> 
+                                      <small class="small d-block">Capacity: 400ML</small>
+                                       <a href="#" class="small  btn btn-outline-primary btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Enquire Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+<div class="col-md-4 col-6 item-boxwrap">
+                            <div class="card">
+                               <div class="item-wrap"> <img class="card-img-top" src="assets/img/Products/water-bottle/steel-water-bottle/steel-water-bottle-H-132 (650ML).jpg" alt="steel-water-bottle-H-132 (650ML)"></div>
+                                <div class="card-body">
+                                    <div>
+                                      <p class="mb-0"><strong>Steel Bottle</strong></p>
+                                      <small class="small d-block text-muted">Item code: <span class="item-code">H-132</span></small> 
+                                      <small class="small d-block">Capacity: 650ML</small>
+                                       <a href="#" class="small  btn btn-outline-primary btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Enquire Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+<div class="col-md-4 col-6 item-boxwrap">
+                            <div class="card">
+                               <div class="item-wrap"> <img class="card-img-top" src="assets/img/Products/water-bottle/steel-water-bottle/steel-water-bottle-H-142 (750ML).jpg" alt="steel-water-bottle-H-142 (750ML)"></div>
+                                <div class="card-body">
+                                    <div>
+                                      <p class="mb-0"><strong>Steel Bottle</strong></p>
+                                      <small class="small d-block text-muted">Item code: <span class="item-code">H-142</span></small> 
+                                      <small class="small d-block">Capacity: 750ML</small>
+                                       <a href="#" class="small  btn btn-outline-primary btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Enquire Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+<div class="col-md-4 col-6 item-boxwrap">
+                            <div class="card">
+                               <div class="item-wrap"> <img class="card-img-top" src="assets/img/Products/water-bottle/steel-water-bottle/steel-water-bottle-H-113 (800ML).jpg" alt="steel-water-bottle-H-113 (800ML)"></div>
+                                <div class="card-body">
+                                    <div>
+                                      <p class="mb-0"><strong>Steel Bottle</strong></p>
+                                      <small class="small d-block text-muted">Item code: <span class="item-code">H-113</span></small> 
+                                      <small class="small d-block">Capacity: 800ML</small>
+                                       <a href="#" class="small  btn btn-outline-primary btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Enquire Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+<div class="col-md-4 col-6 item-boxwrap">
+                            <div class="card">
+                               <div class="item-wrap"> <img class="card-img-top" src="assets/img/Products/water-bottle/steel-water-bottle/steel-water-bottle-H-133 (1000ML).jpg" alt="steel-water-bottle-H-133 (1000ML)"></div>
+                                <div class="card-body">
+                                    <div>
+                                      <p class="mb-0"><strong>Steel Bottle</strong></p>
+                                      <small class="small d-block text-muted">Item code: <span class="item-code">H-133</span></small> 
+                                      <small class="small d-block">Capacity: 1000ML</small>
+                                       <a href="#" class="small  btn btn-outline-primary btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Enquire Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+<div class="col-md-4 col-6 item-boxwrap">
+                            <div class="card">
+                               <div class="item-wrap"> <img class="card-img-top" src="assets/img/Products/water-bottle/steel-water-bottle/steel-water-bottle-H-143 (800+1000ML).jpg" alt="steel-water-bottle-H-143 (800+1000ML)"></div>
+                                <div class="card-body">
+                                    <div>
+                                      <p class="mb-0"><strong>Steel Bottle</strong></p>
+                                      <small class="small d-block text-muted">Item code: <span class="item-code">H-143</span></small> 
+                                      <small class="small d-block">Capacity: 800+1000ML</small>
+                                       <a href="#" class="small  btn btn-outline-primary btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Enquire Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+<div class="col-md-4 col-6 item-boxwrap">
+                            <div class="card">
+                               <div class="item-wrap"> <img class="card-img-top" src="assets/img/Products/water-bottle/steel-water-bottle/steel-water-bottle-H-116 (750ML).jpg" alt="steel-water-bottle-H-116 (750ML)"></div>
+                                <div class="card-body">
+                                    <div>
+                                      <p class="mb-0"><strong>Steel Bottle</strong></p>
+                                      <small class="small d-block text-muted">Item code: <span class="item-code">H-116</span></small> 
+                                      <small class="small d-block">Capacity: 750ML</small>
+                                       <a href="#" class="small  btn btn-outline-primary btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Enquire Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+<div class="col-md-4 col-6 item-boxwrap">
+                            <div class="card">
+                               <div class="item-wrap"> <img class="card-img-top" src="assets/img/Products/water-bottle/steel-water-bottle/steel-water-bottle-H-134 (750ML).jpg" alt="steel-water-bottle-H-134 (750ML)"></div>
+                                <div class="card-body">
+                                    <div>
+                                      <p class="mb-0"><strong>Steel Bottle</strong></p>
+                                      <small class="small d-block text-muted">Item code: <span class="item-code">H-134</span></small> 
+                                      <small class="small d-block">Capacity: 750ML</small>
+                                       <a href="#" class="small  btn btn-outline-primary btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Enquire Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+<div class="col-md-4 col-6 item-boxwrap">
+                            <div class="card">
+                               <div class="item-wrap"> <img class="card-img-top" src="assets/img/Products/water-bottle/steel-water-bottle/steel-water-bottle-H-144 (850ML).jpg" alt="steel-water-bottle-H-144 (850ML)"></div>
+                                <div class="card-body">
+                                    <div>
+                                      <p class="mb-0"><strong>Steel Bottle</strong></p>
+                                      <small class="small d-block text-muted">Item code: <span class="item-code">H-144</span></small> 
+                                      <small class="small d-block">Capacity: 850ML</small>
+                                       <a href="#" class="small  btn btn-outline-primary btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Enquire Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+<div class="col-md-4 col-6 item-boxwrap">
+                            <div class="card">
+                               <div class="item-wrap"> <img class="card-img-top" src="assets/img/Products/water-bottle/steel-water-bottle/steel-water-bottle-H-117 (750ML).jpg" alt="steel-water-bottle-H-117 (750ML)"></div>
+                                <div class="card-body">
+                                    <div>
+                                      <p class="mb-0"><strong>Steel Bottle</strong></p>
+                                      <small class="small d-block text-muted">Item code: <span class="item-code">H-117</span></small> 
+                                      <small class="small d-block">Capacity: 750ML</small>
+                                       <a href="#" class="small  btn btn-outline-primary btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Enquire Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+<div class="col-md-4 col-6 item-boxwrap">
+                            <div class="card">
+                               <div class="item-wrap"> <img class="card-img-top" src="assets/img/Products/water-bottle/steel-water-bottle/steel-water-bottle-H-135 (600ML).jpg" alt="steel-water-bottle-H-135 (600ML)"></div>
+                                <div class="card-body">
+                                    <div>
+                                      <p class="mb-0"><strong>Steel Bottle</strong></p>
+                                      <small class="small d-block text-muted">Item code: <span class="item-code">H-135</span></small> 
+                                      <small class="small d-block">Capacity: 600ML</small>
+                                       <a href="#" class="small  btn btn-outline-primary btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Enquire Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+<div class="col-md-4 col-6 item-boxwrap">
+                            <div class="card">
+                               <div class="item-wrap"> <img class="card-img-top" src="assets/img/Products/water-bottle/steel-water-bottle/steel-water-bottle-H-145 (500+750+1000ML).jpg" alt="steel-water-bottle-H-145 (500+750+1000ML)"></div>
+                                <div class="card-body">
+                                    <div>
+                                      <p class="mb-0"><strong>Steel Bottle</strong></p>
+                                      <small class="small d-block text-muted">Item code: <span class="item-code">H-145</span></small> 
+                                      <small class="small d-block">Capacity: 500+750+1000ML</small>
+                                       <a href="#" class="small  btn btn-outline-primary btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Enquire Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+<div class="col-md-4 col-6 item-boxwrap">
+                            <div class="card">
+                               <div class="item-wrap"> <img class="card-img-top" src="assets/img/Products/water-bottle/steel-water-bottle/steel-water-bottle-H-118 (900ML).jpg" alt="steel-water-bottle-H-118 (900ML)"></div>
+                                <div class="card-body">
+                                    <div>
+                                      <p class="mb-0"><strong>Steel Bottle</strong></p>
+                                      <small class="small d-block text-muted">Item code: <span class="item-code">H-118</span></small> 
+                                      <small class="small d-block">Capacity: 900ML</small>
+                                       <a href="#" class="small  btn btn-outline-primary btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Enquire Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+<div class="col-md-4 col-6 item-boxwrap">
+                            <div class="card">
+                               <div class="item-wrap"> <img class="card-img-top" src="assets/img/Products/water-bottle/steel-water-bottle/steel-water-bottle-H-136 (800ML).jpg" alt="steel-water-bottle-H-136 (800ML)"></div>
+                                <div class="card-body">
+                                    <div>
+                                      <p class="mb-0"><strong>Steel Bottle</strong></p>
+                                      <small class="small d-block text-muted">Item code: <span class="item-code">H-136</span></small> 
+                                      <small class="small d-block">Capacity: 800ML</small>
+                                       <a href="#" class="small  btn btn-outline-primary btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Enquire Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+<div class="col-md-4 col-6 item-boxwrap">
+                            <div class="card">
+                               <div class="item-wrap"> <img class="card-img-top" src="assets/img/Products/water-bottle/steel-water-bottle/steel-water-bottle-H-146 (750+1000ML).jpg" alt="steel-water-bottle-H-146 (750+1000ML)"></div>
+                                <div class="card-body">
+                                    <div>
+                                      <p class="mb-0"><strong>Steel Bottle</strong></p>
+                                      <small class="small d-block text-muted">Item code: <span class="item-code">H-146</span></small> 
+                                      <small class="small d-block">Capacity: 750+1000ML</small>
+                                       <a href="#" class="small  btn btn-outline-primary btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Enquire Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+<div class="col-md-4 col-6 item-boxwrap">
+                            <div class="card">
+                               <div class="item-wrap"> <img class="card-img-top" src="assets/img/Products/water-bottle/steel-water-bottle/steel-water-bottle-H-119 (650 + 1000ML).jpg" alt="steel-water-bottle-H-119 (650 + 1000ML)"></div>
+                                <div class="card-body">
+                                    <div>
+                                      <p class="mb-0"><strong>Steel Bottle</strong></p>
+                                      <small class="small d-block text-muted">Item code: <span class="item-code">H-119</span></small> 
+                                      <small class="small d-block">Capacity: 650+1000ML</small>
+                                       <a href="#" class="small  btn btn-outline-primary btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Enquire Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+<div class="col-md-4 col-6 item-boxwrap">
+                            <div class="card">
+                               <div class="item-wrap"> <img class="card-img-top" src="assets/img/Products/water-bottle/steel-water-bottle/steel-water-bottle-H-137 (500+750+1000+1200ML).jpg" alt="steel-water-bottle-H-137 (500+750+1000+1200ML)"></div>
+                                <div class="card-body">
+                                    <div>
+                                      <p class="mb-0"><strong>Steel Bottle</strong></p>
+                                      <small class="small d-block text-muted">Item code: <span class="item-code">H-137</span></small> 
+                                      <small class="small d-block">Capacity: 500+750+1000+1200ML</small>
+                                       <a href="#" class="small  btn btn-outline-primary btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Enquire Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+<div class="col-md-4 col-6 item-boxwrap">
+                            <div class="card">
+                               <div class="item-wrap"> <img class="card-img-top" src="assets/img/Products/water-bottle/steel-water-bottle/steel-water-bottle-H-147 (750+1000ML).jpg" alt="steel-water-bottle-H-147 (750+1000ML)"></div>
+                                <div class="card-body">
+                                    <div>
+                                      <p class="mb-0"><strong>Steel Bottle</strong></p>
+                                      <small class="small d-block text-muted">Item code: <span class="item-code">H-147</span></small> 
+                                      <small class="small d-block">Capacity: 750+1000ML</small>
+                                       <a href="#" class="small  btn btn-outline-primary btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Enquire Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+<div class="col-md-4 col-6 item-boxwrap">
+                            <div class="card">
+                               <div class="item-wrap"> <img class="card-img-top" src="assets/img/Products/water-bottle/steel-water-bottle/steel-water-bottle-H-120 (800ML).jpg" alt="steel-water-bottle-H-120 (800ML)"></div>
+                                <div class="card-body">
+                                    <div>
+                                      <p class="mb-0"><strong>Steel Bottle</strong></p>
+                                      <small class="small d-block text-muted">Item code: <span class="item-code">H-120</span></small> 
+                                      <small class="small d-block">Capacity: 800ML</small>
+                                       <a href="#" class="small  btn btn-outline-primary btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Enquire Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+<div class="col-md-4 col-6 item-boxwrap">
+                            <div class="card">
+                               <div class="item-wrap"> <img class="card-img-top" src="assets/img/Products/water-bottle/steel-water-bottle/steel-water-bottle-H-138 (800ML).jpg" alt="steel-water-bottle-H-138 (800ML)"></div>
+                                <div class="card-body">
+                                    <div>
+                                      <p class="mb-0"><strong>Steel Bottle</strong></p>
+                                      <small class="small d-block text-muted">Item code: <span class="item-code">H-138</span></small> 
+                                      <small class="small d-block">Capacity: 800ML</small>
+                                       <a href="#" class="small  btn btn-outline-primary btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Enquire Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+<div class="col-md-4 col-6 item-boxwrap">
+                            <div class="card">
+                               <div class="item-wrap"> <img class="card-img-top" src="assets/img/Products/water-bottle/steel-water-bottle/steel-water-bottle-H-148 (500ML).jpg" alt="steel-water-bottle-H-148 (500ML)"></div>
+                                <div class="card-body">
+                                    <div>
+                                      <p class="mb-0"><strong>Steel Bottle</strong></p>
+                                      <small class="small d-block text-muted">Item code: <span class="item-code">H-148</span></small> 
+                                      <small class="small d-block">Capacity: 500ML</small>
+                                       <a href="#" class="small  btn btn-outline-primary btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Enquire Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+<div class="col-md-4 col-6 item-boxwrap">
+                            <div class="card">
+                               <div class="item-wrap"> <img class="card-img-top" src="assets/img/Products/water-bottle/steel-water-bottle/steel-water-bottle-H-121 (850ML).jpg" alt="steel-water-bottle-H-121 (850ML)"></div>
+                                <div class="card-body">
+                                    <div>
+                                      <p class="mb-0"><strong>Steel Bottle</strong></p>
+                                      <small class="small d-block text-muted">Item code: <span class="item-code">H-121</span></small> 
+                                      <small class="small d-block">Capacity: 850ML</small>
+                                       <a href="#" class="small  btn btn-outline-primary btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Enquire Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+<div class="col-md-4 col-6 item-boxwrap">
+                            <div class="card">
+                               <div class="item-wrap"> <img class="card-img-top" src="assets/img/Products/water-bottle/steel-water-bottle/steel-water-bottle-H-139 (850ML).jpg" alt="steel-water-bottle-H-139 (850ML)"></div>
+                                <div class="card-body">
+                                    <div>
+                                      <p class="mb-0"><strong>Steel Bottle</strong></p>
+                                      <small class="small d-block text-muted">Item code: <span class="item-code">H-139</span></small> 
+                                      <small class="small d-block">Capacity: 850ML</small>
+                                       <a href="#" class="small  btn btn-outline-primary btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Enquire Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+<div class="col-md-4 col-6 item-boxwrap">
+                            <div class="card">
+                               <div class="item-wrap"> <img class="card-img-top" src="assets/img/Products/water-bottle/steel-water-bottle/steel-water-bottle-H-149 (750 + 1000ML).jpg" alt="steel-water-bottle-H-149 (750 + 1000ML)"></div>
+                                <div class="card-body">
+                                    <div>
+                                      <p class="mb-0"><strong>Steel Bottle</strong></p>
+                                      <small class="small d-block text-muted">Item code: <span class="item-code">H-149</span></small> 
+                                      <small class="small d-block">Capacity: 750 + 1000ML</small>
+                                       <a href="#" class="small  btn btn-outline-primary btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Enquire Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+<div class="col-md-4 col-6 item-boxwrap">
+                            <div class="card">
+                               <div class="item-wrap"> <img class="card-img-top" src="assets/img/Products/water-bottle/steel-water-bottle/steel-water-bottle-H-122 (650 + 1000ML).jpg" alt="steel-water-bottle-H-122 (650 + 1000ML)"></div>
+                                <div class="card-body">
+                                    <div>
+                                      <p class="mb-0"><strong>Steel Bottle</strong></p>
+                                      <small class="small d-block text-muted">Item code: <span class="item-code">H-122</span></small> 
+                                      <small class="small d-block">Capacity: 650 + 1000ML</small>
+                                       <a href="#" class="small  btn btn-outline-primary btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Enquire Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+<div class="col-md-4 col-6 item-boxwrap">
+                            <div class="card">
+                               <div class="item-wrap"> <img class="card-img-top" src="assets/img/Products/water-bottle/steel-water-bottle/steel-water-bottle-H-140 (500+750+1000ML).jpg" alt="steel-water-bottle-H-140 (500+750+1000ML)"></div>
+                                <div class="card-body">
+                                    <div>
+                                      <p class="mb-0"><strong>Steel Bottle</strong></p>
+                                      <small class="small d-block text-muted">Item code: <span class="item-code">H-140</span></small> 
+                                      <small class="small d-block">Capacity: 500+750+1000ML</small>
+                                       <a href="#" class="small  btn btn-outline-primary btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Enquire Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                                   
+                          
+                          
+                          
+                          
+                          
+                          </div>
+                                </div>
+                                <div class="tab-pane fade" id="Coffee" role="tabpanel" aria-labelledby="Coffee-tab">
+                                  <h4 class="mb-4 mt-3 fw-bold" data-aos="fade-down" >Would you like to add <span class="text-primary fw-bolder">coffee mugs</span> to your packs?</h4>
+                                  <div class="row">
+                                    <div class="col-md-4 col-6 item-boxwrap">
+                                      <div class="card">
+                                         <div class="item-wrap"> <img class="card-img-top" src="assets/img/Products/steel-plastic-coffee-tea-mug/coffee-tea-mug-H-054-(450ML).jpg" alt="coffee-tea-mug-H-054-(450ML)"></div>
+                                          <div class="card-body">
+                                              <div>
+                                                <p class="mb-0"><strong>Coffee mug</strong></p>
+                                                <small class="small d-block text-muted">Item code: <span class="item-code">H-054</span></small> 
+                                                <small class="small d-block">Capacity: 450ml</small>
+                                                 <a href="#" class="small  btn btn-outline-primary btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Enquire Now</a>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+          
+          <div class="col-md-4 col-6 item-boxwrap">
+                                      <div class="card">
+                                         <div class="item-wrap"> <img class="card-img-top" src="assets/img/Products/steel-plastic-coffee-tea-mug/coffee-tea-mug-H-705 (450ML).jpg" alt="coffee-tea-mug-H-705 (450ML)"></div>
+                                          <div class="card-body">
+                                              <div>
+                                                <p class="mb-0"><strong>Coffee mug</strong></p>
+                                                <small class="small d-block text-muted">Item code: <span class="item-code">H-705</span></small> 
+                                                <small class="small d-block">Capacity: 450ml</small>
+                                                 <a href="#" class="small  btn btn-outline-primary btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Enquire Now</a>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+          
+          <div class="col-md-4 col-6 item-boxwrap">
+                                      <div class="card">
+                                         <div class="item-wrap"> <img class="card-img-top" src="assets/img/Products/steel-plastic-coffee-tea-mug/coffee-tea-mug-H-708 (450ML).jpg" alt="coffee-tea-mug-H-708 (450ML)"></div>
+                                          <div class="card-body">
+                                              <div>
+                                                <p class="mb-0"><strong>Coffee mug</strong></p>
+                                                <small class="small d-block text-muted">Item code: <span class="item-code">H-708</span></small> 
+                                                <small class="small d-block">Capacity: 450ml</small>
+                                                 <a href="#" class="small  btn btn-outline-primary btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Enquire Now</a>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+          
+          <div class="col-md-4 col-6 item-boxwrap">
+                                      <div class="card">
+                                         <div class="item-wrap"> <img class="card-img-top" src="assets/img/Products/steel-plastic-coffee-tea-mug/coffee-tea-mug-H-711 (400ML).jpg" alt="coffee-tea-mug-H-711 (400ML)"></div>
+                                          <div class="card-body">
+                                              <div>
+                                                <p class="mb-0"><strong>Coffee mug</strong></p>
+                                                <small class="small d-block text-muted">Item code: <span class="item-code">H-711</span></small> 
+                                                <small class="small d-block">Capacity: 400ml</small>
+                                                 <a href="#" class="small  btn btn-outline-primary btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Enquire Now</a>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+          
+          <div class="col-md-4 col-6 item-boxwrap">
+                                      <div class="card">
+                                         <div class="item-wrap"> <img class="card-img-top" src="assets/img/Products/steel-plastic-coffee-tea-mug/coffee-tea-mug-H-714 (450ML).jpg" alt="coffee-tea-mug-H-714 (450ML)"></div>
+                                          <div class="card-body">
+                                              <div>
+                                                <p class="mb-0"><strong>Coffee mug</strong></p>
+                                                <small class="small d-block text-muted">Item code: <span class="item-code">H-714</span></small> 
+                                                <small class="small d-block">Capacity: 450ml</small>
+                                                 <a href="#" class="small  btn btn-outline-primary btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Enquire Now</a>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+          
+          <div class="col-md-4 col-6 item-boxwrap">
+                                      <div class="card">
+                                         <div class="item-wrap"> <img class="card-img-top" src="assets/img/Products/steel-plastic-coffee-tea-mug/coffee-tea-mug-H-703 (400ML).jpg" alt="coffee-tea-mug-H-703 (400ML)"></div>
+                                          <div class="card-body">
+                                              <div>
+                                                <p class="mb-0"><strong>Coffee mug</strong></p>
+                                                <small class="small d-block text-muted">Item code: <span class="item-code">H-703</span></small> 
+                                                <small class="small d-block">Capacity: 400ml</small>
+                                                 <a href="#" class="small  btn btn-outline-primary btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Enquire Now</a>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+          
+          <div class="col-md-4 col-6 item-boxwrap">
+                                      <div class="card">
+                                         <div class="item-wrap"> <img class="card-img-top" src="assets/img/Products/steel-plastic-coffee-tea-mug/coffee-tea-mug-H-706 (450ML).jpg" alt="coffee-tea-mug-H-706 (450ML)"></div>
+                                          <div class="card-body">
+                                              <div>
+                                                <p class="mb-0"><strong>Coffee mug</strong></p>
+                                                <small class="small d-block text-muted">Item code: <span class="item-code">H-706</span></small> 
+                                                <small class="small d-block">Capacity: 450ml</small>
+                                                 <a href="#" class="small  btn btn-outline-primary btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Enquire Now</a>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+          
+          <div class="col-md-4 col-6 item-boxwrap">
+                                      <div class="card">
+                                         <div class="item-wrap"> <img class="card-img-top" src="assets/img/Products/steel-plastic-coffee-tea-mug/coffee-tea-mug-H-709 (450ML).jpg" alt="coffee-tea-mug-H-709 (450ML)"></div>
+                                          <div class="card-body">
+                                              <div>
+                                                <p class="mb-0"><strong>Coffee mug</strong></p>
+                                                <small class="small d-block text-muted">Item code: <span class="item-code">H-709</span></small> 
+                                                <small class="small d-block">Capacity: 450ml</small>
+                                                 <a href="#" class="small  btn btn-outline-primary btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Enquire Now</a>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+          
+          <div class="col-md-4 col-6 item-boxwrap">
+                                      <div class="card">
+                                         <div class="item-wrap"> <img class="card-img-top" src="assets/img/Products/steel-plastic-coffee-tea-mug/coffee-tea-mug-H-712 (450ML).jpg" alt="coffee-tea-mug-H-712 (450ML)"></div>
+                                          <div class="card-body">
+                                              <div>
+                                                <p class="mb-0"><strong>Coffee mug</strong></p>
+                                                <small class="small d-block text-muted">Item code: <span class="item-code">H-712</span></small> 
+                                                <small class="small d-block">Capacity: 450ml</small>
+                                                 <a href="#" class="small  btn btn-outline-primary btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Enquire Now</a>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+          
+          <div class="col-md-4 col-6 item-boxwrap">
+                                      <div class="card">
+                                         <div class="item-wrap"> <img class="card-img-top" src="assets/img/Products/steel-plastic-coffee-tea-mug/coffee-tea-mug-H-715 (450ML).jpg" alt="coffee-tea-mug-H-715 (450ML)"></div>
+                                          <div class="card-body">
+                                              <div>
+                                                <p class="mb-0"><strong>Coffee mug</strong></p>
+                                                <small class="small d-block text-muted">Item code: <span class="item-code">H-715</span></small> 
+                                                <small class="small d-block">Capacity: 450ml</small>
+                                                 <a href="#" class="small  btn btn-outline-primary btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Enquire Now</a>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+          
+          <div class="col-md-4 col-6 item-boxwrap">
+                                      <div class="card">
+                                         <div class="item-wrap"> <img class="card-img-top" src="assets/img/Products/steel-plastic-coffee-tea-mug/coffee-tea-mug-H-704 (300ML).jpg" alt="coffee-tea-mug-H-704 (300ML)"></div>
+                                          <div class="card-body">
+                                              <div>
+                                                <p class="mb-0"><strong>Coffee mug</strong></p>
+                                                <small class="small d-block text-muted">Item code: <span class="item-code">H-704</span></small> 
+                                                <small class="small d-block">Capacity: 300ml</small>
+                                                 <a href="#" class="small  btn btn-outline-primary btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Enquire Now</a>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+          
+          <div class="col-md-4 col-6 item-boxwrap">
+                                      <div class="card">
+                                         <div class="item-wrap"> <img class="card-img-top" src="assets/img/Products/steel-plastic-coffee-tea-mug/coffee-tea-mug-H-707 (450ML).jpg" alt="coffee-tea-mug-H-707 (450ML)"></div>
+                                          <div class="card-body">
+                                              <div>
+                                                <p class="mb-0"><strong>Coffee mug</strong></p>
+                                                <small class="small d-block text-muted">Item code: <span class="item-code">H-707</span></small> 
+                                                <small class="small d-block">Capacity: 450ml</small>
+                                                 <a href="#" class="small  btn btn-outline-primary btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Enquire Now</a>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+          
+          <div class="col-md-4 col-6 item-boxwrap">
+                                      <div class="card">
+                                         <div class="item-wrap"> <img class="card-img-top" src="assets/img/Products/steel-plastic-coffee-tea-mug/coffee-tea-mug-H-710 (550ML).jpg" alt="coffee-tea-mug-H-710 (550ML)"></div>
+                                          <div class="card-body">
+                                              <div>
+                                                <p class="mb-0"><strong>Coffee mug</strong></p>
+                                                <small class="small d-block text-muted">Item code: <span class="item-code">H-710</span></small> 
+                                                <small class="small d-block">Capacity: 550ml</small>
+                                                 <a href="#" class="small  btn btn-outline-primary btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Enquire Now</a>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+          
+          <div class="col-md-4 col-6 item-boxwrap">
+                                      <div class="card">
+                                         <div class="item-wrap"> <img class="card-img-top" src="assets/img/Products/steel-plastic-coffee-tea-mug/coffee-tea-mug-H-713 (400ML).jpg" alt="coffee-tea-mug-H-713 (400ML)"></div>
+                                          <div class="card-body">
+                                              <div>
+                                                <p class="mb-0"><strong>Coffee mug</strong></p>
+                                                <small class="small d-block text-muted">Item code: <span class="item-code">H-713</span></small> 
+                                                <small class="small d-block">Capacity: 400ml</small>
+                                                 <a href="#" class="small  btn btn-outline-primary btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Enquire Now</a>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+          
+          
+                                    </div>
+
+                                </div>
                                 <div class="tab-pane fade" id="Gift" role="tabpanel" aria-labelledby="Gift-tab">Gift</div>
                                 <div class="tab-pane fade" id="Tshirt" role="tabpanel" aria-labelledby="Tshirt-tab">Tshirt</div>
                               </div>
